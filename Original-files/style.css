@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #c1d8d9;
+}
+header{
+    background-color: #FFD700;
+    display: flex;
+    height:80px;
+    justify-content:space-around;
+    align-items: center;
+}
+/* The main axis of the flex container is the direction and it is justify-content */
+header h1{
+    background-color: #fcf804 ; 
+    width: 30%;
+}
+
+nav{
+    /* background-color: ; */
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 80%;
+    align-items: center;
+}
+
+
+.main-section{
+    display:flex;
+}
+.main-section > h1{
+    width:20%;
+}
+
+.main-section > section{
+    width:80%;
+    background-color: rgb(200, 174, 174);
+}
+
+
+@media screen and (max-width : 800px) {
+    header{
+        flex-direction: column;
+    }
+    nav{
+        height: 50%;
+        width: 90%
+    }
+    header h1{
+        height: 35%;
+        text-align: center;
+    }
+}
+
+// GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport
