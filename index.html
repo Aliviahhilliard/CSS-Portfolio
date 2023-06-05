@@ -1,46 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+  <html lang="en">
+  
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Assets/reset.css">
     <link rel="stylesheet" href="./Assets/style.css">
-
-    <title>Document</title>
-</head>
-
-<body>
+    <title>CSS Portfolio</title>
+  </head>
+  
+  <body>
     <header>
-        <h1>Hello</h1>
-        <nav>
-            <div>Link</div>
-            <div>Link</div>
-            <div>Link</div>
-            <div>Link</div>
-        </nav>
+      <h1>Aliviah Hilliard</h1>
+      <div>
+        <ul>
+            <li>
+                <a href="#about-me">About Me</a>
+            </li>
+            <li>
+                <a href="#my-work">My Work</a>
+            </li>
+            <li>
+                <a href="#contact-me">Contact Me</a>
+            </li>
+        </ul>
+    </div>
     </header>
-    <main>
-        <section class="main-section">
-            <h1>Title</h1>
-            <section class="content">
-                Content
-            </section>
-        </section>
-        <section class="main-section">
-            <h1>Title</h1>
-            <section class="content">
-                Content
-            </section>
-        </section>
-        <section class="main-section">
-            <h1>Title</h1>
-            <section class="content">
-                Content
-            </section>
-        </section>
-    </main>
+    <section class="hero"></section>
+    <section class="content">
+        <article class="about-me"
+        id="about-me">
+            <img src="Assets/about-me.jpg" class="float-left" />
+            <h2>About Me</h2>
+            <p>
+              I have been a stay at home parent for the past decade. It has been an amazingly challenging role. During this time
+              I also became a Genealogist. The puzzle solving, investigative work that goes into researching and tracking down
+              my and others families history sparked my interest towards another topic: coding. While I have heard the developer lingo
+              for many years, as my husband is a senior developer, I wanted to know the ins and outs of creating projects of my own. Namely a 
+              program that is specified towards the way my brain works. One for genealogy, another for household management, another for gardening. 
+              The possibilites seem endless. I decided to sign up for a coding Bootcamp through Ohio State University. It has been challenging but 
+              very rewarding learning from the ground up to be a full stack developer. Ultimately, I aspire to have a career in developing by the time the Bootcamp
+              is finished.    
+            </p>
+        </article>
+        <article id="my-work" class="my-work">
+            <img src="Assets/my-work.jpg" class="float-right" />
+            <h2>My Work</h2>
+            <p>
+                The following are the projects I have worked on through Full Stack Developer Bootcamp.
+            </p>
+        </article>
+        <article id="contact-me" class="contact-me">
+            <img src="Assets/contact-me.jpg" class="float-left" />
+            <h2>Contact Me</h2>
+            <p>
+                Email
+                Phone Number
+                Github
+            </p>
+        </article>
+    </section>
+    
+    <footer>
+        <h2>Made with ❤️️ by Aliviah Hilliard</h2>
+        <p>
+            &copy; 2023 ASH
+        </p>
+    </footer>
 </body>
 
 </html>
