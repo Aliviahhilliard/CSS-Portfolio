@@ -1,65 +1,162 @@
 <!DOCTYPE html>
-  <html lang="en">
-  
-  <head>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Assets/style.css">
-    <title>CSS Portfolio</title>
-  </head>
-  
-  <body>
+    <link rel="stylesheet" href="Assets/style.css">
+    <title>Aliviah Hilliard Portfolio</title>
+</head>
+
+<body>
     <header>
-      <h1>Aliviah Hilliard</h1>
-      <div>
-        <ul>
-            <li>
-                <a href="#about-me">About Me</a>
-            </li>
-            <li>
-                <a href="#my-work">My Work</a>
-            </li>
-            <li>
-                <a href="#contact-me">Contact Me</a>
-            </li>
-        </ul>
-    </div>
+        <h1>Aliviah Hilliard</h1>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="#contact-me">Contact Me</a></li>
+                    <li><a href="#my-work">My Work</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
     <section class="hero"></section>
-    <section class="content">
-        <article class="about-me"
-        id="about-me">
-            <img src="Assets/about-me.jpg" class="float-left" />
-            <h2>About Me</h2>
-            <p>
-              I have been a stay at home parent for the past decade. It has been an amazingly challenging role. During this time
-              I also became a Genealogist. The puzzle solving, investigative work that goes into researching and tracking down
-              my and others families history sparked my interest towards another topic: coding. While I have heard the developer lingo
-              for many years, as my husband is a senior developer, I wanted to know the ins and outs of creating projects of my own. Namely a 
-              program that is specified towards the way my brain works. One for genealogy, another for household management, another for gardening. 
-              The possibilites seem endless. I decided to sign up for a coding Bootcamp through Ohio State University. It has been challenging but 
-              very rewarding learning from the ground up to be a full stack developer. Ultimately, I aspire to have a career in developing by the time the Bootcamp
-              is finished.    
-            </p>
-        </article>
-        <article id="my-work" class="my-work">
-            <img src="Assets/my-work.jpg" class="float-right" />
-            <h2>My Work</h2>
-            <p>
-                The following are the projects I have worked on through Full Stack Developer Bootcamp.
-            </p>
-        </article>
-        <article id="contact-me" class="contact-me">
-            <img src="Assets/contact-me.jpg" class="float-left" />
-            <h2>Contact Me</h2>
-            <p>
-                Email
-                Phone Number
-                Github
-            </p>
-        </article>
-    </section>
+
+    <main>
+        <section class="content">
+            <article id="about_me" class="about_me">
+                <div class="card">
+                    <img src="Assets/about_me.jpg" class="float-left" />
+                    <div class="card-content">
+                        <h2>About Me</h2>
+                        <p>
+                            For the past decade, I've been a stay-at-home parent,
+                            managing a small online shop and diving into the world 
+                            of genealogy. My love for problem-solving and investigative
+                            work led me to discover another passion: coding. I was drawn 
+                            to learning how to create the personalized projects I had longed for, 
+                            such as applications for genealogy, household management,
+                            and gardening. Seeking to expand my knowledge, I enrolled in a 
+                            coding course at Ohio State University, where I'm currently learning 
+                            full-stack development at a fast pace. I aspire to begin a career 
+                            in development by the end of this year.
+                        </p>
+                    </div>
+                </div> 
+            </article>
+        </section>
+
+        <section class="content">
+            <article id="my-work" class="my-work">
+                <div class="card">
+                    <img src="Assets/my-work.jpg" class="float-right" />
+                    <div class="card-content">
+                        <h2>My Work</h2>
+                        <p>
+                            The following are the projects I have worked on
+                            while learning coding through OSU's program.
+                        </p>
+                    </div>
+                </div> 
+            </article>
+        </section>    
+
+        <section class="projects">
+            <article>
+                <a target="_blank" rel="nonreferrer" href="https://github.com/Aliviahhilliard/HTML-Refactor">
+                    <!-- <div class="row">
+                        <div class="column"> -->
+                            <div class="card">
+                            <div id="image-one" class="image-container">
+                                <div class="overlay">
+                                    <h3>HTML Refactor</h3>
+                                    <h4>HTML,CSS</h4>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>
+
+            <article>
+                <a target="_blank" rel="nonreferrer" href="https://github.com/Aliviahhilliard/CSS-Portfolio">
+                    <!-- <div class="row">
+                        <div class="column"> -->
+                            <div class="card">
+                            <div id="image-one" class="image-container">
+                                <div class="overlay">
+                                    <h3>CSS Portfolio</h3>
+                                    <h4>HTML,CSS</h4>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>
+                
+            <article>
+                <a target="_blank" rel="nonreferrer" href="https://github.com/Aliviahhilliard/JS-Password-Generator">
+                    <!-- <div class="row">
+                        <div class="column"> -->
+                            <div class="card">
+                            <div id="image-one" class="image-container">
+                                <div class="overlay">
+                                    <h3>JS Password Generator</h3>
+                                    <h4>HTML,CSS,JS</h4>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>
+            
+
+            <article>
+                <a target="_blank" rel="nonreferrer" href="https://github.com/Aliviahhilliard/Web-APIs-Quiz">
+                    <!-- <div class="row">
+                        <div class="column"> -->
+                            <div class="card">
+                            <div id="image-one" class="image-container">
+                                <div class="overlay">
+                                    <h3>Web APIs Quiz</h3>
+                                    <h4>HTML,CSS,JS</h4>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </article>
+        </section>
+          
+        <!-- <section class="hero"></section> -->
+
+        <section class="content">
+            <!-- <a target="_blank" rel="nonreferrer" href=""> -->
+                <article id="contact-me" class="contact-me">
+                    <div class="card">
+                        <img src="Assets/contact-me.jpg" class="float-left" />
+                        <div class="card-content">
+                            <h2>Contact Me</h2>
+                            <p>
+                                aliviahhilliard@gmail.com
+
+                                Number available upon request
+
+                                https://github.com/Aliviahhilliard
+                            </p>
+                        </div>
+                    </div> 
+                </article>
+            </a>
+        </section>
+    </main>
     
     <footer>
         <h2>Made with ❤️️ by Aliviah Hilliard</h2>
