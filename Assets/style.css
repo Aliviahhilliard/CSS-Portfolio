@@ -1,4 +1,5 @@
-:root {
+  /* CSS Custom Properties */
+  :root {
   --secondary: #ffffff; 
   --primary-background-color: #49a39d;
   --primary-font-color: #ffffff;
@@ -7,16 +8,17 @@
   --common-font-size: 20px;
 }
 
+  /* Global box-sizing */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-
+  /* Background color */
 body {
   background-color: var(--primary-background-color);
 }
-
+  /* Header styles */
 header {
   text-align: center;
   padding: 20px;
@@ -24,12 +26,12 @@ header {
   background-color: var(--primary-background-color);
   color: var(--primary-font-color);
 }
-
+  /* Header Title Size */
 header h1 {
   display: inline-block;
   font-size: 48px;
 }
-
+  /* Navigation link styles */
 nav a {
   text-decoration: none;
   padding: 5px 10px;
@@ -50,14 +52,14 @@ header div {
   font-family: var(--secondary-font-family);
   font-size: var(--common-font-size);
 }
-
+  /* Inline Block List */
 header div ul {
   display: inline-block;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-
+  /* List Item Float */
 header div ul li {
   float: right;
   margin-right: 10px;
@@ -191,7 +193,7 @@ article {
   transition: 0.5s ease;
   border: 5px solid rgb(237, 192, 13);
 }
-
+  /* Card Content On Hover */
 .card-content {
   position: absolute;
   bottom: 0;
@@ -221,7 +223,7 @@ article {
 .card {
  flex: 0 1 24%;
 }
-
+  /* Mobile Responsiveness */
 @media screen and (max-width: 800px) {
   header {
     flex-direction: column;
