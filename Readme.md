@@ -34,12 +34,14 @@ THEN they are presented with a responsive layout that adapts to their viewport
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo]()
+![portfolio demo](https://github.com/Aliviahhilliard/CSS-Portfolio/blob/main/Assets/CSS%20Portfolio%20Demo.gif)
 
 ## Review 
 
-* The URL of the functional, deployed application.
+[Link to CSS Portfolio](https://aliviahhilliard.github.io/CSS-Portfolio/)
 
-* The URL of the GitHub repository.
+[Link to CSS Portfolio Repository](https://github.com/Aliviahhilliard/CSS-Portfolio)
 
-Made with ❤ by Aliviah Hilliard 
+
+
+  Made with ❤ by Aliviah Hilliard 
