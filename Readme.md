@@ -1,4 +1,4 @@
-# 02 Advanced CSS: Portfolio
+# CSS Portfolio
 
 ## Description
 
@@ -8,11 +8,13 @@ to create a responsive layout that adapts to different devices. Having a deploye
 essential for job interviews, and this project sets me up for future success. Overall, I created
 a valuable tool for my career growth.
 
-## Getting Started
+## User Story
 
 AS A developer
 I WANT a potential employer to view my deployed portfolio of work samples
 SO THAT they can review samples of my work and assess whether I am a good candidate for an open position
+
+## Acceptance Criteria
 
 GIVEN I need a potential employer to sample my previous work
 WHEN they load my portfolio
@@ -32,4 +34,12 @@ THEN they are presented with a responsive layout that adapts to their viewport
 
 The following animation shows the web application's appearance and functionality:
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+![portfolio demo]()
+
+## Review 
+
+* The URL of the functional, deployed application.
+
+* The URL of the GitHub repository.
+
+Made with ❤ by Aliviah Hilliard 
